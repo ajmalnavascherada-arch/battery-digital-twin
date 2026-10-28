@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Data files (keep raw datasets out of Git)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Generated outputs
+results/*
+!results/.gitkeep
+
+
+.idea/
+.env
+.env.*
+!.env.example
+
+# NASA source datasets stored locally
+data/*.mat
+
+# All generated processed datasets
+data/processed_*/
+data/processed*/
+
+# Generated analysis outputs (selectively publish chosen reports)
+results/
+results_*/
+results_capacity_comparison/
